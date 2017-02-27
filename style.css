@@ -52,6 +52,13 @@ body {
 	margin-left: 38%;
 }
 
+.iconimg {
+	height: 5%;
+	width: 5%;
+	float: left;
+	margin-left: 3%;
+}
+
 ul {
 	list-style-type: none;
 	margin: 0;
