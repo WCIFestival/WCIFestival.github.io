@@ -1,22 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Karla');
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Fascinate+Inline');
 
 * {
-	border: 1px solid red;
+
 }
 
-.body {
+body {
 	margin: 0px;
+	background-color: #24323F;
+	color: white;
+	font-family: Josefin Sans, sans serif;
 }
+
+
+.red { color: #E4614A;}
+.orange { color: #F39320;}
+.yellow { color: #F4BE47;}
+.green { color: #3AA75E;}
+.blue { color: #358CC1;}
+.purple { color: #A67FB9;}
 
 .titlebox {
 	width: 100%;
-	height: 20%;
+	height: 80%;
 	display: table;
+	position: absolute;
+	background-image: url("image.jpg");
+	padding-top: 100px;
+	padding-bottom: 100px;
 }
 
 .titlemain {
 	display: table-cell;
 	font-size: 30pt;
+	font-family: Abril Fatface, sans serif;
 	vertical-align: middle;
 	horizontal-align: middle;
 	text-align: center;
+}
+
+.spacer {
+	width: 100%;
+	height: 500px;
+	margin-bottom: 20%;
+}
+
+.mainimg {
+	height: 25%;
+	width: 25%;
+	margin-bottom: 5%;
+	margin-left: 38%;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	margin: auto;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	width: 90%;
+	overflow: hidden;
+	background-color: transparent;
+}
+
+li {
+	float: left;
+	width: 20%;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	padding: 10px 0px; 
+	border-top: 2px solid transparent;
+	border-bottom: 2px solid transparent;
+    	-webkit-transition-duration:all ease 0.4s;
+   	transition:all ease 0.4s;
+}
+
+li a:hover {
+	border-top: 2px solid white;
+	border-bottom: 2px solid white;
+	color: white;
 }
