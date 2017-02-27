@@ -102,3 +102,7 @@ li a:hover {
 	border-bottom: 2px solid white;
 	color: white;
 }
+
+.active {
+	font-weight: bold;
+}
