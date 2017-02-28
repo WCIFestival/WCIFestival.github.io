@@ -74,8 +74,8 @@ body {
 .mainimg {
 	height: 25%;
 	width: 25%;
-	margin-bottom: 5%;
-	margin-left: 37%;
+	margin-bottom: 1%;
+	margin-left: 36%;
 }
 
 .iconimg {
@@ -129,4 +129,15 @@ li a:hover {
 
 .active {
 	font-weight: bold;
+}
+
+.timer {
+	text-align: center;
+	font-size: 20pt;
+}
+
+#demo {
+	font-size: 30pt;
+	text-align: center;
+	margin-bottom: 5%;
 }
