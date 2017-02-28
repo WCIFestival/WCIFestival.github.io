@@ -77,7 +77,7 @@ body {
 .mainimg {
 	height: 25%;
 	width: 25%;
-	margin-bottom: 1%;
+	margin-bottom: 5%;
 	margin-left: 36%;
 }
 
@@ -140,7 +140,8 @@ li a:hover {
 }
 
 #demo {
-	font-size: 30pt;
+	font-size: 40pt;
 	text-align: center;
-	margin-bottom: 5%;
+	margin-bottom: 1%;
+	margin-top: 5%;
 }
