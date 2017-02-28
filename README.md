@@ -1,1 +1,1 @@
-# https://WCIFestival.github.io/index.html
+# https://WCIFestival.github.io
