@@ -24,8 +24,11 @@ body {
 	width: 100%;
 	height: 70%;
 	position: absolute;
-	background-image: url("image.jpg");
+	background-image: url("https://68.media.tumblr.com/3f01c96109ccf65ec1fcec2a1824dd79/tumblr_no9j186Bjv1r1d4seo1_500.gif");
 	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
 	padding-top: 100px;
 	padding-bottom: 100px;
 }
